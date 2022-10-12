@@ -1,6 +1,10 @@
 import logo from './logo.svg';
 import './App.css';
 
+import React, { Component } from 'react';
+import Test from './Test';
+
+/*
 function App() {
   return (
     <div className="App">
@@ -21,5 +25,19 @@ function App() {
     </div>
   );
 }
+*/
 
-export default App;
+class App2 extends Component {
+  render() {
+    return (
+      <>
+      <div id="wrap">
+        <h1>Hello World</h1>
+        <Test />
+      </div>
+      </>
+    );
+  }
+}
+
+export default App2;
